@@ -668,31 +668,31 @@ footer .footer-bottom p {
   .case-images img {
     width: 100%;
   }
-  .case-images .aboutme-top {
+  .aboutme-top {
     width: calc(100vw - 6rem);
     display: grid;
     grid-template-columns: 40% 60%;
     align-items: center;
     gap: 3rem;
   }
-  .case-images .aboutme-text {
+  .aboutme-text {
     grid-column: 1;
     max-width: 35rem;
   }
-  .case-images .aboutme-image {
+  .aboutme-image {
     grid-column: 2;
     justify-self: end;
   }
-  .case-images .aboutme-image img {
+  .aboutme-image img {
     width: 100%;
     max-width: 40rem;
     display: block;
     padding-right: 2rem;
   }
-  .case-images {
-    /* CONTACT DESKTOP */
-  }
-  .case-images main.contact-main {
+  /* CONTACT DESKTOP */
+}
+@media screen and (min-width: 1024px) and (min-width: 1024px) {
+  main.contact-main {
     grid-column: 1/-1;
     grid-row: 2;
     width: 100%;
@@ -702,22 +702,24 @@ footer .footer-bottom p {
     gap: 4rem;
     align-items: center;
   }
-  .case-images .contact-content {
+  .contact-content {
     grid-column: 1;
     width: 100%;
     max-width: 40rem;
   }
-  .case-images .contact-image {
+  .contact-image {
     grid-column: 2;
     width: 100%;
     max-width: 40rem;
     justify-self: end;
     margin-top: 0;
   }
-  .case-images .contact-image img {
+  .contact-image img {
     width: 100%;
     height: auto;
   }
+}
+@media screen and (min-width: 1024px) {
   .aboutme-page main {
     grid-column: 1/-1;
     grid-row: 2;
@@ -744,6 +746,8 @@ footer .footer-bottom p {
     grid-template-columns: repeat(5, 1fr);
     gap: 1rem;
   }
+}
+@media screen and (min-width: 1024px) {
   /* FOOTER */
   footer {
     grid-column: 1/-1;
