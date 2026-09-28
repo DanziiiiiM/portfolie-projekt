@@ -738,7 +738,7 @@ footer{
         img{
             width:100%;
         }
-    }
+    
 
     .aboutme-top{
         width:calc(100vw - 6rem);
@@ -765,7 +765,6 @@ footer{
         }
     }
         /* CONTACT DESKTOP */
-        @media screen and (min-width:1024px){
 
             main.contact-main{
                 grid-column:1/-1;
